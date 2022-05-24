@@ -5,20 +5,69 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/*COMMON*/
+
+ul {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
 /*header*/
 
 header {
     font-family: Helvetica, arial, sans-serif;
 }
 
+/*Sony-logo*/
+
 .back-black {
     background-color: black;
+    text-align: right;
 }
+
+.logo {
+    width: 80px;
+    margin: 10px;
+}
+
+/*main-menu*/
 
 .back_menu {
     background-color: aqua;
 }
 
-.logo {
-    width: 70px;
+.play_logo {
+    margin-left: -1rem;
+    margin-top: 1rem;
+}
+
+.flex_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger_menu {
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+.f_small {
+    font-size: small;
+    color: gray;
+}
+
+.btn_black {
+    background-color: rgb(54, 54, 54);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.padd {
+    padding-right: 15px;
 }
