@@ -16,6 +16,22 @@ header a {
     color: white;
 }
 
+.btn_radius {
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn_red {
+    background-color: rgb(205, 61, 15);
+}
+
+p {
+    font-weight: bold;
+}
+
+
 /*header*/
 
 header {
@@ -36,13 +52,12 @@ header {
 
 /*main-menu*/
 
-.back_menu {
-    background-color: aqua;
+.fixed_menu {
+    padding-top: 1rem;
 }
 
 .play_logo {
     margin-left: -1rem;
-    margin-top: 1rem;
 }
 
 .flex_menu {
@@ -63,11 +78,25 @@ header {
 
 .btn_black {
     background-color: rgb(54, 54, 54);
-    padding: 10px;
-    border-radius: 20px;
-    font-weight: bold;
 }
 
 .padd {
-    padding-right: 15px;
+    padding-right: 1rem;
+}
+
+/*main*/
+
+/*section-returnal*/
+
+.back_img {
+    background-color: lightcoral;
+    color: white;
+}
+
+.logo-returnal {
+    width: 13rem;
+}
+
+.returnal-text {
+    max-width: 720px;
 }
