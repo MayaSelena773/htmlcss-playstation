@@ -89,8 +89,11 @@ header {
 /*section-returnal*/
 
 .back_img {
-    background-color: lightcoral;
+    background-image: url(img/img/returnal-listing-thumb-01-ps5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
+    height: 700px;
 }
 
 .logo-returnal {
@@ -99,4 +102,11 @@ header {
 
 .returnal-text {
     max-width: 720px;
+}
+
+/*section-cards*/
+
+.ms_border {
+    border: 1px solid blue;
+    border-radius: 10px;
 }
