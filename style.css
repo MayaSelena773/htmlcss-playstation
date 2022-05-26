@@ -65,6 +65,10 @@ p {
 .btn_blue {
     background-color: blue;
 }
+
+.px_10 {
+    font-size: 10px;
+}
 /*header*/
 
 header {
@@ -161,6 +165,13 @@ header {
     height: 700px;
     margin-bottom: 20px;
 }
+
+/*section-news*/
+
+.ms_rounded {
+    border-radius: 20px;
+}
+
 /*MEDIA-QUERY*/
 
 @media screen and (min-width: 1200px) {
