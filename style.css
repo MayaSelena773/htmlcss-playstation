@@ -46,6 +46,11 @@ p {
 .text_blue {
     color: blue;
 }
+
+.jumbo_title {
+    font-size: 40px;
+    font-weight: 500;
+}
 /*header*/
 
 header {
@@ -95,23 +100,26 @@ header {
 
 /*main*/
 
-/*section-returnal*/
+/*section-jumbotron*/
 
 .back_img {
-    background-image: url(img/img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(img/img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     color: white;
     height: 700px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .logo-returnal {
-    width: 13rem;
+    width: 18rem;
 }
 
 .returnal-text {
     max-width: 720px;
+    position: absolute;
+    bottom: 40px;
 }
 
 /*section-cards*/
@@ -119,4 +127,13 @@ header {
 .ms_border {
     border: 3px solid blue;
     border-radius: 10px;
+}
+
+/*MEDIA-QUERY*/
+
+@media screen and (min-width: 1200px) {
+
+    .returnal-text {
+        max-width: 420px;
+    }
 }
