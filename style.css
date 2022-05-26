@@ -151,11 +151,25 @@ header {
     width: 100%;
 }
 
+/*section-takes-two*/
+
+.back_takes_two {
+    background-image: url(img/img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 700px;
+    margin-bottom: 20px;
+}
 /*MEDIA-QUERY*/
 
 @media screen and (min-width: 1200px) {
 
     .returnal-text {
+        max-width: 420px;
+    }
+
+    .takestwo-text {
         max-width: 420px;
     }
 }
