@@ -16,6 +16,11 @@ header a {
     color: white;
 }
 
+main a {
+    text-decoration: none;
+    color: white;
+}
+
 .f_small {
     font-size: small;
 }
@@ -33,6 +38,7 @@ header a {
     padding: 10px;
     font-weight: bold;
     display: inline-block;
+    color: white;
 }
 
 .btn_red {
@@ -43,13 +49,21 @@ p {
     font-weight: bold;
 }
 
+.card {
+    border: transparent;
+}
+
 .text_blue {
     color: blue;
 }
 
-.jumbo_title {
+.big_title {
     font-size: 40px;
     font-weight: 500;
+}
+
+.btn_blue {
+    background-color: blue;
 }
 /*header*/
 
@@ -125,7 +139,9 @@ header {
 /*section-cards*/
 
 .ms_border {
-    border: 3px solid blue;
+    border: 3px solid white;
+    outline: 2px solid blue;
+    box-sizing: border-box;
     border-radius: 10px;
 }
 
