@@ -63,7 +63,7 @@ p {
 }
 
 .btn_blue {
-    background-color: blue;
+    background-color: rgb(45, 100, 230);
 }
 
 .px_10 {
@@ -172,7 +172,30 @@ header {
     border-radius: 20px;
 }
 
+/*section-explore*/
+
+.ms_circle {
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.ms_style {
+    width: 30rem;
+}
+
 /*MEDIA-QUERY*/
+
+@media screen and (min-width:768px) {
+
+    .ms_style {
+       width: 23rem;
+    }
+
+    .text_max {
+        max-width: 700px;
+    }
+}
 
 @media screen and (min-width: 1200px) {
 
