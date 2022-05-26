@@ -129,6 +129,12 @@ header {
     border-radius: 10px;
 }
 
+/*section-console*/
+
+.thumb-img {
+    width: 100%;
+}
+
 /*MEDIA-QUERY*/
 
 @media screen and (min-width: 1200px) {
