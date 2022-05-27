@@ -29,7 +29,7 @@ main a {
 }
 
 .img_small {
-    width: 25px;
+    width: 23px;
 }
 
 .btn_radius {
@@ -212,6 +212,36 @@ header {
     color: black;
 }
 
+/*footer*/
+
+.back_lightblue {
+    background-color: rgb(0, 67, 156);
+    color: white;
+    position: relative;
+}
+
+.ps-footer {
+    width: 100px;
+    margin-top: 5rem;
+}
+
+.ms_column {
+    display: flex;
+}
+
+.img_sie {
+    width: 8rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.last_link {
+    text-decoration: underline;
+}
+
 /*MEDIA-QUERY*/
 
 @media screen and (min-width: 768px) {
@@ -256,6 +286,12 @@ header {
 
     .ms_left {
         padding-left: 15rem;
+    }
+
+    .ms_position_footer {
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
 }
