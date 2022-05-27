@@ -191,10 +191,6 @@ header {
 }
 
 .btn_white {
-    border-radius: 20px;
-    padding: 10px;
-    font-weight: bold;
-    display: inline-block;
     background-color: rgb(217, 218, 220);
     color: blue;
 }
@@ -202,6 +198,18 @@ header {
 .logo-plus {
     width: 20rem;
     margin: 20px;
+}
+
+/*section-PSNow*/
+
+.back_blue {
+    background-color: rgb(22, 28, 59);
+    color: white;
+}
+
+.btn_now {
+    background-color: white;
+    color: black;
 }
 
 /*MEDIA-QUERY*/
@@ -240,6 +248,10 @@ header {
     .logo-plus {
         width: 20rem;
         margin: 20px;
+    }
+
+    .ms_padding {
+        padding-top: 8rem;
     }
 
 }
